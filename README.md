@@ -1,7 +1,5 @@
 FUNCIONALIDADES DO PROJETO: 
-O projeto consiste em uma API para cadastro de usuários com endereços vinculados a cada um deles, o projeto possui um relacionamento 1:1 utilizando o Myql como banco de dados.
-
-
+O projeto consiste em uma API para cadastro de usuários com endereços vinculados a cada um deles, o projeto possui um relacionamento 1:1 utilizando o Myql como banco de dados e o Sequelize como ORM.
 
 COMO RODAR O PROJETO BAIXADO
 Instalar todas as dependencias indicada pelo package.json
@@ -43,7 +41,7 @@ Rodar o projeto usando o nodemon
 ### nodemon app.js
 
 Abrir o endereço no navegador para acessar a página inicial
-### http://localhost:8080
+### http://localhost:3333
 
 Comando SQL para criar a base de dados
 ### CREATE DATABASE cruduser CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
@@ -64,7 +62,7 @@ Manipular variáveis de ambiente
 ### npm install dotenv --save
 
 Criar a Models usuarios
-### npx sequelize-cli model:generate --name Users --attributes name:string,email:string
+### npx sequelize-cli model:generate --name Users --attributes name:string,email:string,password:string,isLogged:string
 
 Executar as migrations
 ### npx sequelize-cli db:migrate
