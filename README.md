@@ -1,5 +1,5 @@
 FUNCIONALIDADES DO PROJETO: 
-O projeto consiste em uma API para cadastro de usuários com endereços vinculados a cada um deles, o projeto possui um relacionamento 1:1 utilizando o Myql como banco de dados e o Sequelize como ORM.
+O projeto consiste em uma API para cadastro de usuários com endereços vinculados a cada um deles, o projeto possui um relacionamento 1:1 utilizando o Mysql como banco de dados e o Sequelize como ORM.
 
 COMO RODAR O PROJETO BAIXADO
 Instalar todas as dependencias indicada pelo package.json
